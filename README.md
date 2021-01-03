@@ -1,4 +1,4 @@
-**Note: As of June 2020 I do not have time to maintain termtosvg anymore and this repository is now read-only.**
+**Note: The original author (@nbedos) ceased active maintenance as of June 2020. This fork may still refer to the original project, but it should be noted that that project has been archived.**
 
 # termtosvg
 termtosvg is a Unix terminal recorder written in Python that renders your command
