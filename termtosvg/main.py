@@ -30,9 +30,9 @@ def integral_duration_validation(duration):
     if duration.lower().endswith('ms'):
         duration = duration[:-len('ms')]
 
-    if duration.isdigit() and int(duration) >= 1:
+    if duration.isdigit() and int(duration) >= 0:
         return int(duration)
-    raise ValueError('duration must be an integer greater than 0')
+    raise ValueError('duration must be an integer greater than or equal to 0')
 
 
 def parse(args, templates, default_template, default_geometry, default_min_dur,
